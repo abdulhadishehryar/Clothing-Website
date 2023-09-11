@@ -1,10 +1,11 @@
 .page-header{
-    color: #181818;
+    color: white;
     text-align: center;
     font-size: 40px;
     font-family: poppins;
     font-weight: 600;
-    
+    background-color: #181818
+
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans+Sogdian&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 .card {
@@ -57,6 +58,10 @@
   border-top: 3px solid #eeeeee;
   /* width: 1000px; */
   /* text-align: center; */
+}
+.card-title{
+  font-weight: 600;
+  font-size: 20px;
 }
 .image {
   opacity: 1;
