@@ -33,7 +33,7 @@ a:hover {
 }
 
 .form-control {
-  width: 100%;
+  /* width: 100%; */
   height: 50px;
   font-size: 15px;
   padding: 10px;
@@ -79,21 +79,85 @@ label {
   background-color: #36454f;
   color: white;
   outline: none;
+  border: none;
   border-radius: 5px;
 }
 .right-apply-btn {
   background-color: #36454f;
   color: white;
+  border: none;
+  height: 3rem;
   width: 100px;
   border-radius: 5px;
   outline: none;
 }
-.l-input {
-  height: 40p;
+@media (max-width:1370px) {
+  .right-apply-btn{
+    width: 6vw;
+  }
 }
+@media (max-width: 990px) {
+  .right-apply-btn{
+    width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .right-apply-btn{
+    margin-top: 5px;
+  }
+}
+
 @media (max-width: 767px) {
   .col-lg-6 {
     flex-basis: 100%;
     max-width: 100%;
+  }
+  .right-apply-btn{
+    font-size: .9rem;
+    width: 90px;
+  }
+}
+@media (max-width: 500px) {
+  .left-side-shipping-btn{
+    width: 150px;
+    font-size: .8rem;
+  }
+  .calculated{
+    font-size: .8rem;
+  }
+  .gift-card{
+font-size: .7rem;
+  }
+  .address,.number,.first-name,.last-name,.city,.postal-code{
+    font-size: .8rem;
+  }
+  .city{
+    width: 100px;
+  }
+  .postal-code{
+    width: 150px;
+  }
+  .right-apply-btn{
+    /* margin-top: 10px; */
+    /* font-size: 1.9em; */
+  }
+  .sub-price{
+    font-size: 1.2rem;
+  }
+  .main-header{
+    font-size: 1.7rem;
+    padding-left: 90px;
+  }
+}
+
+@media (max-width: 350px) {
+  .city{
+    width: 100px;
+  }
+  .postal-code{
+    width: 150px;
+  }
+  .gift-card{
+    font-size: 1rem;
   }
 }

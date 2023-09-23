@@ -33,99 +33,69 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav class="sticky-top">
-        <!-- Menu icon -->
-        <div class="menu-icon">
-            <span class="fas fa-bars"></span>
-        </div>
-        <!-- Logo -->
-        <div class="logo">
-            <a href="/index.html" class="fw-bolder logo">BRIDGE</a>
-        </div>
-        <!-- Navigation Items -->
+    <div class="container-fluid navbar-nav-items-wrapper">
+        <nav>
+            <div class="menu-icon">
+                <span class="fas fa-bars"></span>
+            </div>
+            <div class="logo">
+                <a href="/index.html"><img class="img-fluid navbar-logo" src="/Images/logo3.png" alt=""></a>
+            </div>
+
+            <div class="search-icon ">
+                <span><img src="/Navbar-and-footer-icons/search.png" alt="" class="navbar-search-icon"></span>
+            </div>
+            <div class="cancel-icon">
+                <span class="fas fa-times"></span>
+            </div>
+            <form action="#">
+                <input type="search" class="search-data" placeholder="Search" required>
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+            <div class="icons">
+                <div>
+                    <a href="/cart-page.html"> <img src="/Navbar-and-footer-icons/cart.png" alt="" class="cart-icon"></a>
+                </div>
+                <div>
+                    <a href="/login.html"><img src="/Navbar-and-footer-icons/user.png" alt="" class=" user-icon" srcset=""></a>
+                </div>
+                <div>
+
+                    <a href="/order-tracking.html"><img src="/Navbar-and-footer-icons/delivery-truck.png" alt="" class="delivery-icon"
+                            srcset=""></a>
+                </div>
+            </div>
+        </nav>
         <div class="nav-items">
-            <!-- <li><a href="#" class="navbar_links">Man</a></li> -->
-            <li class="nav-item dropdown dropdown-mega position-static ">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside">Man</a>
-                <div class="dropdown-menu shadow">
-                    <div class="mega-content px-4 w-100">
-                        <div class="container-fluid">
-                            <div class="row" style="width: 550px;">
-                                <div class="col-lg-6 col-sm-6 col-md-6 py-4">
-                                    <div class="list-group">
-                                        <a class="list-group-item" href="/Shalwar-kameez.html">Shalwar Kameez</a>
-                                        <a class="list-group-item" href="/Casual-Shirts.html">Casual shirts</a>
-                                        <a class="list-group-item" href="/Casual-Coats.html">Coats</a>
-                                        <a class="list-group-item" href="/T-shirt.html">T-shirts</a>
-                                        <a class="list-group-item" href="/Polo-shirts.html">Polo Shirts</a>
-                                        <a class="list-group-item" href="/Hallf-sleves-shirt.html">Hallf sleves Shirts</a>
-                                        <a class="list-group-item" href="/Dress-shirt.html">Dress Shirts</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-md-6 py-4">
-                                    <div class="list-group">
-                                        <a class="list-group-item" href="/Casual-pants.html">Casual Pants</a>
-                                        <a class="list-group-item" href="/Trousers-page.html">Casual Trosers</a>
-                                        <a class="list-group-item" href="/Shorts.html">Shorts</a>
-                                        <a class="list-group-item" href="/Slim-jeans.html">Slim fit jeans</a>
-                                        <a class="list-group-item" href="/Straight-Fit-jeans.html">Straight fit jeans</a>
-                                        <a class="list-group-item" href="/Skinny-jeans.html">Skinny fit jeans</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <li>
+            <div class="dropdown">
+                <a href="/MAN-Categories.html"><button class="dropbtn">Man</button></a>
+                <div class="dropdown-content">
+                    <a class="list-group-item" href="/Shalwar-kameez.html">Shalwar Kameez</a>
+                    <a class="list-group-item" href="/Casual-Shirts.html">Casual shirts</a>
+                    <a class="list-group-item" href="/Casual-Coats.html">Coats</a>
+                    <a class="list-group-item" href="/T-shirt.html">T-shirts</a>
+                    <a class="list-group-item" href="/Polo-shirts.html">Polo Shirts</a>
+                    <a class="list-group-item" href="/Hallf-sleves-shirt.html">Hallf sleves Shirts</a>
+                    <a class="list-group-item" href="/Dress-shirt.html">Dress Shirts</a>
                 </div>
-            </li>
-            <li class="nav-item dropdown dropdown-mega position-static ">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                    data-bs-auto-close="outside">Accessories</a>
-                <div class="dropdown-menu shadow">
-                    <div class="mega-content px-4 ">
-                        <!-- <div class="container-fluid"> -->
-                        <div class="row" style="width: 300px;">
-                            <div class="col-lg-12 col-sm-12 col-md-12 py-4">
-                                <div class="list-group">
-                                    <a class="list-group-item" href="/Wallets.html">Wallets</a>
-                                    <a class="list-group-item" href="/Caps.html">Caps</a>
-                                    <a class="list-group-item" href="/Cufflinks.html">Cufflinks</a>
-                                    <a class="list-group-item" href="/Tie.html">Ties</a>
-                                    <a class="list-group-item" href="/Bow-tie.html">Bow Ties</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- </div> -->
-                    </div>
-                </div>
-            </li>
-            <li class="mt-2"><a href="/New-arrival.html" class="navbar_links ">New Arrival</a></li>
-            <li class="mt-2 ms-2"><a href="/Sale.html" class="navbar_links text-danger">Sale</a></li>
+            </div>
+          </li>
+           <li> <div class="dropdown">
+            <a href="/Accessories.html"><button class="dropbtn">Accessories</button></a>
+            <div class="dropdown-content">
+                <a class="list-group-item" href="/Wallets.html">Wallets</a>
+                <a class="list-group-item" href="/Caps.html">Caps</a>
+                <a class="list-group-item" href="/Cufflinks.html">Cufflinks</a>
+                <a class="list-group-item" href="/Tie.html">Ties</a>
+                <a class="list-group-item" href="/Bow-tie.html">Bow Ties</a>
+            </div>
+        </div></li>
+            <li><a href="/Sale.html" style="color: red;">Sale</a></li>
+            <li><a href="/New-arrival.html">New Arival</a></li>
         </div>
-        <!-- Search Icon -->
-        <div class="search-icon">
-            <span class="fas fa-search"></span>
-        </div>
-        <!-- Cancel Icon -->
-        <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-        </div>
-        <!-- User and Cart Icons -->
-        <div>
-            <a href="/login.html"> <img src="/Navbar-and-footer-icons/user.svg" alt="" srcset="" style="height: 28px; width: 28px;" class="me-3 pt-1">
-            </a>
-            <a href="/cart-page.html"> <img src="/Navbar-and-footer-icons/shopping-cart.svg" alt="" srcset="" style="height: 28px; width: 28px;" class="pt-1 me-4  ms-3">
-            </a>
-        </div>
-        <!-- Search Form -->
-        <form action="#">
-            <input type="search" class="search-data" placeholder="Search" required>
-            <button type="submit" class="fas fa-search"></button>
-        </form>
-    </nav>
-
-
-    <!-- Product Page Section -->
+    </div>
+  <!-- Product Page Section -->
     <br><br>
     <section id="product-page mt-6">
         <div class="product-details">
@@ -161,11 +131,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis laboriosam vitae ab aspernatur qui
                     facere a commodi cupiditate praesentium. Aliquam, voluptatem est debitis consequuntur ex autem
                     exercitationem quas dolorem alias?
-                    <br />zz
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illo, enim non molestias dolores eos
-                    officia minima quidem architecto labore soluta? Expedita officiis voluptas sapiente officia debitis,
-                    mollitia eum quia.
-                </p>
+                  </p>
                 <!-- Product Size Container -->
                 <div class="product-size-container">
                     <strong>Select Size:-</strong>
@@ -266,10 +232,10 @@
                     <h5 class="text-uppercase mb-4 footer-links-header fs-5">Company</h5>
                     <ul class="list-unstyled mb-4">
                         <li class="fs-6">
-                            <a href="#" class="fs-6 footer-links text-decoration-none">About us</a>
+                            <a href="/About-us.html" class="fs-6 footer-links text-decoration-none">About us</a>
                         </li>
                         <li>
-                            <a href="contact-us.html" target="_blank"
+                            <a href="/contact-us.html"
                                 class="fs-6 footer-links text-decoration-none">Contact us</a>
                         </li>
                     </ul>
@@ -281,18 +247,18 @@
                     <h5 class="text-uppercase mb-4 footer-links-header ">Help</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#" class="fs-6 footer-links text-decoration-none">Shipping Information</a>
+                            <a href="/about-shipping-info.html" class="fs-6 footer-links text-decoration-none">Shipping Information</a>
                         </li>
                         <li>
-                            <a href="order-tracking.html" target="_blank"
+                            <a href="/order-tracking.html"
                                 class="fs-6 footer-links text-decoration-none">Order Tracking</a>
                         </li>
                         <li>
-                            <a href="payment.html" target="_blank"
+                            <a href="/payment.html"
                                 class="fs-6 footer-links text-decoration-none">Payment</a>
                         </li>
                         <li>
-                            <a href="FAQ.html" target="_blank" class="fs-6 footer-links text-decoration-none">FAQs</a>
+                            <a href="/FAQ.html" class="fs-6 footer-links text-decoration-none">FAQs</a>
                         </li>
                     </ul>
                 </div>
@@ -303,21 +269,21 @@
                     <h5 class="text-uppercase mb-4 footer-links-header">Policy</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="return-and-exchange.html" target="_blank"
+                            <a href="/return-and-exchange.html"
                                 class="fs-6 footer-links text-decoration-none ">Return &
                                 Exchanges</a>
                         </li>
                         <li>
-                            <a href="privacy policy.html" target="_blank"
+                            <a href="/privacy policy.html"
                                 class="fs-6 footer-links  text-decoration-none">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="terms-and-conditions.html" target="_blank"
+                            <a href="/terms-and-conditions.html"
                                 class="fs-6 footer-links  text-decoration-none">Terms &
                                 Conditions</a>
                         </li>
                         <li>
-                            <a href="disclaimer.html" target="_blank"
+                            <a href="/disclaimer.html"
                                 class="fs-6 footer-links text-decoration-none ">Disclaimer</a>
                         </li>
                     </ul>
@@ -333,11 +299,11 @@
                     </div>
                     <button type="submit" class="btn btn-outline-dark btn-block">Subscribe</button>
                     <!-- Social Media Icons -->
-                    <a href="https://www.instagram.com/" target="_blank" class=" ms-2 fs-3 me-3"><i
+                    <a href="https://www.instagram.com/" class=" ms-2 fs-3 me-3"><i
                             class="fa fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank" class="fs-3 me-3"><i
+                    <a href="https://www.facebook.com/" class="fs-3 me-3"><i
                             class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/" target="_blank" class="fs-3 "><i class="fa fa-twitter"></i></a>
+                    <a href="https://twitter.com/" class="fs-3 "><i class="fa fa-twitter"></i></a>
                 </div>
                 <!--Grid column-->
             </div>

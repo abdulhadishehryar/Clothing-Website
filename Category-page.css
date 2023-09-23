@@ -34,9 +34,7 @@
   opacity: 1;
   color: white;
 }
-.card-body {
-  width: 300px;
-}
+
 .accessories-header,
 .style-yourself-header,
 .feature-product-header {
@@ -109,23 +107,22 @@
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
-/* Adjust the navbar for smaller screens */
-@media (max-width: 768px) {
-  .nav-items {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      background-color: white;
-      width: 100%;
-      z-index: 1;
-      text-align: center;
+@media (max-width: 550px) {
+  .cart-button{
+    width: 150px;
+    bottom: 100px;
   }
-  .nav-items.active {
-      display: flex;
+}
+@media (max-width: 350px) {
+  .cart-button{
+    width: 120px;
+    font-size: 1rem;
   }
-  .nav-item {
-      margin: 10px 0;
-  }
+}
+@media (max-width:400px) {
+  .accessories-header,
+.style-yourself-header,
+.feature-product-header{
+  font-size: 1.3rem;
+}
 }

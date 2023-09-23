@@ -275,9 +275,9 @@ input {
   font-weight: 500;
 }
 
-.card-body {
+/* .card-body {
   width: 300px;
-}
+} */
 
 /* Product Page Bottom Header */
 .product-page-bottom-header {
@@ -329,4 +329,16 @@ span {
   border-radius: 7px;
   display: flex;
   width: 152px;
+}
+@media (max-width: 550px) {
+  .cart-button{
+    width: 150px;
+    bottom: 120px;
+  }
+}
+@media (max-width: 350px) {
+  .cart-button{
+    width: 120px;
+    font-size: 1rem;
+  }
 }

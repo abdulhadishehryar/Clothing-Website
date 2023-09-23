@@ -13,6 +13,14 @@
   font-size: 40px;
   /* background-color: gainsboro; */
 }
+.tracking-form{
+  width: 500px;
+  height: 2.5rem;
+  padding: 2px 5px;
+  border-radius: 3px;
+  border: 1px solid #36454f;
+  outline: none;
+}
 .button {
   /* background-color: black; */
   outline: none;
@@ -20,7 +28,7 @@
   color: black;
   border: 1px solid #36454f;
   background-color: white;
-  width: 170px;
+  width: 150px;
   height: 40px;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
@@ -28,8 +36,27 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
+  margin-top: 20px;
 }
 .button:hover {
   background-color: #36454f;
   color: white;
+}
+
+@media (max-width: 500px) {
+  .tracking-form{
+    width: 300px;
+    height: 2.3rem;
+  }
+  .button{
+    font-size: .9rem;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .order-tracking-header{
+    font-size: 2rem;
+  }
 }
